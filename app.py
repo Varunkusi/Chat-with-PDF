@@ -3,7 +3,7 @@ import streamlit as st
 from fileingestor import FileIngestor
 
 # Set the title for the Streamlit app
-st.title("Chat with PDF - 🦙 🔗")
+st.title("Chat with your own PDF - " + emoji.emojize(":grinning_face_with_big_eyes:"))
 
 # Create a file uploader in the sidebar
 uploaded_file = st.sidebar.file_uploader("Upload File", type="pdf")
